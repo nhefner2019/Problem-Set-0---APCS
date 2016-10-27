@@ -339,13 +339,13 @@ public class ProblemSet0
 	{
 		int p = n;
 		int combination = 0;
-		for(int q = 0; q <= n; q += 25)
+		for(int q = 0; q*25 <= n; q ++)
 		{
-			for(int d = 0; d <=n-q; d+= 10)
+			for(int d = 0; d*10 <=n-(q*25); d++)
 			{
-				for(int k = 0; k<= n-q-d; k+= 5)
+				for(int k = 0; k *5 <= n-(q*25)-(d*10); k++)
 				{
-					p = n-q-d-k;
+					p = n-((q*25)+(d*10)+(k*5));
 					System.out.println("Quarters: "+ q + "\nDimes: " +d+"\nNickels: "+k+"\nPennies: "+p+"\n");
 					combination++;
 					

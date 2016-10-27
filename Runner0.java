@@ -16,6 +16,7 @@ public class Runner0
 		System.out.println();
 		ProblemSet0.multiples(15);
 		System.out.println();
+		ProblemSet0.multiples(1);
 		System.out.println("-------------------------------");
 		System.out.println(ProblemSet0.swap(123));
 		System.out.println(ProblemSet0.swap(3));
