@@ -249,13 +249,13 @@ public class ProblemSet0
 	*/
 	public static boolean isDivisible(int n)
 	{
-		int i = sumDigits(n);
-		if(i == 0)
+		int sum = sumDigits(n);
+		if(sum == 0)
 			return true;
-		else if(i < 0)
+		else if(sum < 0)
 			return false;
 		else
-			return isDivisible(i-3);
+			return isDivisible(sum-3);
 	}
 	
 	/**
