@@ -1,0 +1,68 @@
+public class Runner0
+{
+	public static void main(String[] args)
+	{
+		System.out.println(ProblemSet0.toBinary(200));
+		System.out.println(ProblemSet0.toBinary(0));
+		System.out.println(ProblemSet0.toBinary(78));
+		System.out.println(ProblemSet0.toBinary(16));
+		System.out.println("-------------------------------");
+		System.out.println(ProblemSet0.rollDie(4));
+		System.out.println(ProblemSet0.rollDie(0));
+		System.out.println(ProblemSet0.rollDie(100));
+		System.out.println(ProblemSet0.rollDie(6));
+		System.out.println("-------------------------------");
+		ProblemSet0.multiples(7);
+		System.out.println();
+		ProblemSet0.multiples(15);
+		System.out.println();
+		System.out.println("-------------------------------");
+		System.out.println(ProblemSet0.swap(123));
+		System.out.println(ProblemSet0.swap(3));
+		System.out.println(ProblemSet0.swap(30));
+		System.out.println("-------------------------------");
+		ProblemSet0.xor();
+		System.out.println("-------------------------------");		
+		ProblemSet0.printStars(5);
+		ProblemSet0.printStars(1);
+		ProblemSet0.printStars(8);
+		System.out.println("-------------------------------");
+		ProblemSet0.printTriangle(3);
+		ProblemSet0.printTriangle(18);
+		ProblemSet0.printTriangle(7);
+		System.out.println();
+		ProblemSet0.printRecursive(5);
+		ProblemSet0.printRecursive(2);
+		ProblemSet0.printRecursive(9);
+		System.out.println();
+		ProblemSet0.printRecursive2(5);
+		ProblemSet0.printRecursive2(2);
+		ProblemSet0.printRecursive2(9);
+		System.out.println("-------------------------------");
+		System.out.println(ProblemSet0.sumDigits(432));
+		System.out.println(ProblemSet0.sumDigits(17));
+		System.out.println(ProblemSet0.sumDigits(9388));
+		System.out.println("-------------------------------");
+		System.out.println(ProblemSet0.isDivisible(432));
+		System.out.println(ProblemSet0.isDivisible(998));
+		System.out.println(ProblemSet0.isDivisible(0));
+		System.out.println("-------------------------------");
+		ProblemSet0.printMoreStars(4);
+		System.out.println();
+		ProblemSet0.printMoreStars(8);
+		System.out.println();
+		ProblemSet0.printMoreStars(1);
+		System.out.println("-------------------------------");
+		ProblemSet0.leastCoins(73);
+		System.out.println();
+		ProblemSet0.leastCoins(0);
+		System.out.println();
+		ProblemSet0.leastCoins(17);
+		System.out.println("-------------------------------");		
+		ProblemSet0.coins(26);
+		ProblemSet0.coins(5);
+		ProblemSet0.coins(1);
+		
+	}
+	
+}
